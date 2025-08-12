@@ -1,0 +1,110 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{pdfpages}
+
+% Set page margins
+\geometry{
+    top=2cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm
+}
+
+\title{EE214 Experiment 1 Report}
+\author{Samiran Das, 24B1270 \\
+B.Tech., Electrical Engineering \\
+Indian Institute of Technology, Bombay}
+\date{7th August 2025}
+
+\begin{document}
+
+\maketitle
+
+% Include external PDF at the beginning
+\includepdf[pages=-]{pen_paper_design.pdf}
+
+% Page 1: Full Adder
+\newpage
+\section*{Full Adder Circuit}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{full_adder_2/images/netlist.png}
+    \caption{Full Adder Netlist}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{full_adder_2/images/simulation.png}
+    \caption{Full Adder Simulation}
+\end{figure}
+
+% Page 2: Half Adder
+\newpage
+\section*{Half Adder Circuit}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{half_adder/images/netlist.png}
+    \caption{Half Adder Netlist}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{half_adder/images/simulation.png}
+    \caption{Half Adder Simulation}
+\end{figure}
+
+% Page 3: NAND-based AND Gate
+\newpage
+\section*{NAND-based AND Gate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{nand_and/images/netlist.png}
+    \caption{NAND-based AND Gate Netlist}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{nand_and/images/simulation.png}
+    \caption{NAND-based AND Gate Simulation}
+\end{figure}
+
+% Page 4: NAND-based OR Gate
+\newpage
+\section*{NAND-based OR Gate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{nand_or/images/netlist.png}
+    \caption{NAND-based OR Gate Netlist}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{nand_or/images/simulation.png}
+    \caption{NAND-based OR Gate Simulation}
+\end{figure}
+
+% Page 5: NAND-based XOR Gate
+\newpage
+\section*{NAND-based XOR Gate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{nand_xor/images/netlist.png}
+    \caption{NAND-based XOR Gate Netlist}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{nand_xor/images/simulation.png}
+    \caption{NAND-based XOR Gate Simulation}
+\end{figure}
+
+\end{document}
