@@ -1,0 +1,72 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    {\Huge\bfseries EE214 Lab 2 Report\\[1.5em]}
+    {\Large Designing 4-to-2, Priority 4-to-2 and 8-to-3 Encoders\\[2em]}
+    \vfill
+    {\large Name: Samiran Das\\
+    Roll No: 24B1270\\
+    Date: August 14, 2025}
+    \vfill
+    {\large Department of Electrical Engineering\\[1em]}
+    {\large Indian Institute of Technology, Bombay\\[1em]}
+\end{titlepage}
+
+% Pen & Paper Design
+\includepdf[pages=-]{pen_paper_design.pdf}
+
+% Encoder 4-to-2
+
+% Encoder 4-to-2
+\section*{4-to-2 Encoder}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1\textwidth]{encoder_4_to_2/images/netlist.png}
+    \caption{Netlist for 4-to-2 Encoder}
+\end{figure}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1\textwidth]{encoder_4_to_2/images/simulation.png}
+    \caption{Simulation for 4-to-2 Encoder}
+\end{figure}
+\clearpage
+\clearpage
+
+% Priority Encoder 4-to-2
+\section*{Priority 4-to-2 Encoder}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1\textwidth]{priority_encoder_4_to_2/images/netlist.png}
+    \caption{Netlist for Priority 4-to-2 Encoder}
+\end{figure}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1\textwidth]{priority_encoder_4_to_2/images/simulation.png}
+    \caption{Simulation for Priority 4-to-2 Encoder}
+\end{figure}
+\clearpage
+\clearpage
+
+% Encoder 8-to-3
+\section*{8-to-3 Encoder}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1\textwidth]{encoder_8_to_3/images/netlist.png}
+    \caption{Netlist for 8-to-3 Encoder}
+\end{figure}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1\textwidth]{encoder_8_to_3/images/simulation.png}
+    \caption{Simulation for 8-to-3 Encoder}
+\end{figure}
+\clearpage
+\clearpage
+
+\end{document}
